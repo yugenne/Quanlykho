@@ -1,0 +1,22 @@
+Laptop Dell Insprison 15 3520,Dell,15.6 Inch full HD,i5,Intel Iris Xe,3-cell 41Wh,1.9 kg,6,16400000,14580000
+Laptop Dell Vostro 15 3520,Dell,15.6 Inch full HD,i3,Intel UHD,3-cell 42Wh,1.83 kg,9,10500000,9450000
+Laptop Dell Insprison 16 5630,Dell,16 Inch full HD,i5,Intel Irish Xe,4-cell 54Wh,1.94 kg,21,22600000,20340000
+Laptop Dell Precision 14 3480,Dell,14 Inch full HD,i7,RTX A500 4GB,3-cell 54Wh,1.39 kg,12,50800000,45720000
+Laptop Dell Precision 16 5680,Dell,16 Inch full HD,i9,RTX A2000 8GB,6-cell 100Wh,1.9 kg,5,102000000,90000000
+Laptop Dell Precision 16 7680,Dell,16 Inch full HD+,i9,RTX A20000 8GB,6-cell Li-on 83Wh,2.6kg,4,88500000,79650000
+Laptop Asus Vivobook 15 OLED,Asus,15.6 Inch full HD,i5,Intel UHD,3-cell 42Wh,1.7 kg,34,10200000,9180000
+Laptop Asus TUF Gaming F15,Asus,15.6 Inch full HD,i5,RTX 2050 4GB,3-cell 48Wh,2.3 kg,22,16500000,14850000
+Laptop Asus Gaming ROG Strix SCAR,Asus,18 Inch full HD,i9,RTX 4090 16GB,4-cell 90Wh,3.1 kg,2,115000000,103500000
+Laptop Asus Zenbook S 13 OLED,Asus,13.3 Inch full HD,i7,Intel Iris Xe,4-cell Li-on 63Wh,1 kg,7,28800000,25900000
+Laptop Asus Asus Vivobook 14,Asus,14 Inch full HD,i3,Intel UHD,3-cell 42Wh,1.6 kg,23,11500000,10350000
+Laptop Acer Gaming Aspire 5,Acer,15.6 Inch,i5,RTX 2050 4GB,3-cell 50Wh,1.7 kg,11,17300000,15570000
+Laptop Acer Aspire 3 A315,Acer,15.6 Inch full HD,i3,Intel UHD,3-cell 40Wh,1.7 kg,22,8800000,7920000
+Laptop Acer Gaming Nitro 5 Tiger,Acer,15.6 Inch full HD,i7,RTX 3050 4GB,4-cell 57Wh,2.5 kg,24,22000000,20000000
+Laptop Acer Gaming Predator Helios,Acer,16 Inch full HD,i7,RTX 4070 8GB,4-cell 90WH,2.6 kg,12,56000000,50400000
+Laptop LG gram 2023,LG,17 Inch full HD,i7,Intel Iris Xe,4-cell 80Wh,1.35 kg,25,42000000,37800000
+Laptop LG gram Style 2023,LG,16 Inch full HD,i5,Intel Iris Xe,3-cell 80Wh,1.25 kg,13,34000000,30600000
+Laptop Lenovo Ideapad 3 15IAU7,Lenovo,15.6 Inch full HD,i3,Intel UHD,3-cell 45Wh,1.63 kg,26,9000000,8100000
+Laptop Lenovo Ideapad 5 Pro 14IAP7,Lenovo,14 Inch full HD,i7,Intel Iris Xe,4-cell 56.5Wh,1.42 kg,12,22000000,19800000
+Laptop Lenovo V15 G4 IRU i5 1335U,Lenovo,15.6 Inch full HD,i5,Intel Iris Xe,3-cell 48Wh,1.67 kg,22,15200000,13680000
+Laptop MSI Gaming Katana A15 AI,MSI,15.6 Inch full HD,Ryzen 7,RTX 4060 8GB,3-cell 53.5Wh,2.25 kg,12,28000000,25200000
+Laptop MSI Creator 16 AI Studio,MSI,16 Inch full HD,Ultra 9,RTX 4080 12GB,4-cell 100Wh,2 kg,1,83000000,74700000
