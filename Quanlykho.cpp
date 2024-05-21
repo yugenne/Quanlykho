@@ -1,4 +1,5 @@
-﻿#include <iostream>  
+         //Chương trình quản lý kho laptop (Nguyễn Phúc Chinh - Hoàng Nguyễn Bảo Nguyên)
+#include <iostream>  
 #include <fstream>   // Thư viện để thao tác với tệp văn bản (Đọc/Ghi File)
 #include <string>    // Thư viện cho kiểu dữ liệu chuỗi
 #include <vector>    // Thư viện cho cấu trúc dữ liệu vector
@@ -14,121 +15,121 @@ void trolai() {
     cout << "Nhap lua chon cua ban: ";
 }
 class laptop {
-private:
-    string ten;
-    string hang;
-    string manhinh;
-    string CPU;
-    string Card;
-    string Pin;
-    string Khoiluong;
-    double soluong;
-    double giaban;
-    double giamua;
-public:
-    laptop(string ten, string hang, string CPU, double soluong, double giaban, double giamua)
-        : ten(ten), hang(hang), CPU(CPU), soluong(soluong), giaban(giaban), giamua(giamua) {}
-    laptop() : soluong(0), giaban(0), giamua(0) {}
-    void SetSoLuong(double newSoLuong) {
-        soluong = newSoLuong;
-    }
-    void SetGiaBan(double newGiaBan) {
-        giaban = newGiaBan;
-    }
-    void SetGiamua(double GM) {
-        giamua = GM;
-    }
-    void SetTen(string newten) {
-        ten = newten;
-    }
-    void Sethang(string newhang) {
-        hang = newhang;
-    }
-    void Setmanhinh(string newmahinh) {
-        manhinh = newmahinh;
-    }
-    void SetCard(string card) {
-        Card = card;
-    }
-    void SetKL(string kl) {
-        Khoiluong = kl;
-    }
-    void Setsoluong(double SL) {
-        soluong = SL;
-    }
-    void SetCPU(string cpu) {
-        CPU = cpu;
-    }
-    void SetPin(string pin) {
-        Pin = pin;
-    }
-    string GetTen() const {
-        return ten;
-    }
-    string GetHang() const {
-        return hang;
-    }
-    string Getmanhinh() const {
-        return manhinh;
-    }
-    string GetCard() const {
-        return Card;
-    }
-    string GetPin() const {
-        return Pin;
-    }
-    string GetKhoiluong() const {
-        return Khoiluong;
-    }
-    string GetCPU() const {
-        return CPU;
-    }
-    double GetSoLuong() const {
-        return soluong;
-    }
-    double GetGiaBan() const {
-        return giaban;
-    }
-    double GetGiaMua() const {
-        return giamua;
-    }
-    void NhapThongTin() {
-        cout << "Nhap ten laptop: ";
-        getline(cin, ten);
-        cout << "Nhap hang: ";
-        getline(cin, hang);
-        cout << "Nhap man hinh :";
-        getline(cin, manhinh);
-        cout << "Nhap CPU: ";
-        getline(cin, CPU);
-        cout << "Nhap lai Card: ";
-        getline(cin, Card);
-        cout << "Nhap loai Pin: ";
-        getline(cin, Pin);
-        cout << "Nhap khoi luong: ";
-        getline(cin, Khoiluong);
-        cout << "Nhap so luong :";
-        cin >> soluong;
-        cout << "Nhap gia ban :";
-        cin >> giaban;
-        cout << "Nhap gia mua: ";
-        cin >> giamua;
-        cin.ignore();
-    }
-    void XuatThongTinlaptop() const {
-        cout << setw(6) << "      #====================================#======================================#" << endl;
-        cout << setw(43) << left << "      |   Ten laptop: " << setw(3) << "|" << setw(36) << ten << "|" << endl;
-        cout << setw(43) << "      |   Hang: " << setw(3) << "|" << setw(36) << hang << "|" << endl;
-        cout << setw(43) << "      |   Man hinh: " << setw(3) << "|" << setw(36) << manhinh << "|" << endl;
-        cout << setw(43) << "      |   CPU: " << setw(3) << "|" << setw(36) << CPU << "|" << endl;
-        cout << setw(43) << "      |   Card: " << setw(3) << "|" << setw(36) << Card << "|" << endl;
-        cout << setw(43) << "      |   Pin: " << setw(3) << "|" << setw(36) << Pin << "|" << endl;
-        cout << setw(43) << "      |   Khoi luong: " << setw(3) << "|" << setw(36) << Khoiluong << "|" << endl;
-        cout << setw(43) << "      |   So luong hien co trong kho: " << setw(3) << "|" << "" << setw(36) << soluong << "|" << endl;
-        cout << setw(43) << "      |   Gia mua: " << fixed << setprecision(0) << setw(3) << "|" << setw(36) << giamua << "|" << endl;
-        cout << setw(43) << "      |   Gia ban: " << fixed << setprecision(0) << setw(3) << "|" << setw(36) << giaban << "|" << endl;
-        cout << setw(6) << "      #====================================#======================================#" << endl;
-    }
+    private:
+        string ten;
+        string hang;
+        string manhinh;
+        string CPU;
+        string Card;
+        string Pin;
+        string Khoiluong;
+        double soluong;
+        double giaban;
+        double giamua;
+    public:
+        laptop(string ten, string hang, string CPU, double soluong, double giaban, double giamua)
+            : ten(ten), hang(hang), CPU(CPU), soluong(soluong), giaban(giaban), giamua(giamua) {}
+        laptop() : soluong(0), giaban(0), giamua(0) {}
+        void SetSoLuong(double newSoLuong) {
+            soluong = newSoLuong;
+        }
+        void SetGiaBan(double newGiaBan) {
+            giaban = newGiaBan;
+        }
+        void SetGiamua(double GM) {
+            giamua = GM;
+        }
+        void SetTen(string newten) {
+            ten = newten;
+        }
+        void Sethang(string newhang) {
+            hang = newhang;
+        }
+        void Setmanhinh(string newmahinh) {
+            manhinh = newmahinh;
+        }
+        void SetCard(string card) {
+            Card = card;
+        }
+        void SetKL(string kl) {
+            Khoiluong = kl;
+        }
+        void Setsoluong(double SL) {
+            soluong = SL;
+        }
+        void SetCPU(string cpu) {
+            CPU = cpu;
+        }
+        void SetPin(string pin) {
+            Pin = pin;
+        }
+        string GetTen() const {
+            return ten;
+        }
+        string GetHang() const {
+            return hang;
+        }
+        string Getmanhinh() const {
+            return manhinh;
+        }
+        string GetCard() const {
+            return Card;
+        }
+        string GetPin() const {
+            return Pin;
+        }
+        string GetKhoiluong() const {
+            return Khoiluong;
+        }
+        string GetCPU() const {
+            return CPU;
+        }
+        double GetSoLuong() const {
+            return soluong;
+        }
+        double GetGiaBan() const {
+            return giaban;
+        }
+        double GetGiaMua() const {
+            return giamua;
+        }
+        void NhapThongTin() {
+            cout << "Nhap ten laptop: ";
+            getline(cin, ten);
+            cout << "Nhap hang: ";
+            getline(cin, hang);
+            cout << "Nhap man hinh :";
+            getline(cin, manhinh);
+            cout << "Nhap CPU: ";
+            getline(cin, CPU);
+            cout << "Nhap lai Card: ";
+            getline(cin, Card);
+            cout << "Nhap loai Pin: ";
+            getline(cin, Pin);
+            cout << "Nhap khoi luong: ";
+            getline(cin, Khoiluong);
+            cout << "Nhap so luong :";
+            cin >> soluong;
+            cout << "Nhap gia ban :";
+            cin >> giaban;
+            cout << "Nhap gia mua: ";
+            cin >> giamua;
+            cin.ignore();
+        }
+        void XuatThongTinlaptop() const {
+            cout << setw(6) << "      #====================================#======================================#" << endl;
+            cout << setw(43) << left << "      |   Ten laptop: " << setw(3) << "|" << setw(36) << ten << "|" << endl;
+            cout << setw(43) << "      |   Hang: " << setw(3) << "|" << setw(36) << hang << "|" << endl;
+            cout << setw(43) << "      |   Man hinh: " << setw(3) << "|" << setw(36) << manhinh << "|" << endl;
+            cout << setw(43) << "      |   CPU: " << setw(3) << "|" << setw(36) << CPU << "|" << endl;
+            cout << setw(43) << "      |   Card: " << setw(3) << "|" << setw(36) << Card << "|" << endl;
+            cout << setw(43) << "      |   Pin: " << setw(3) << "|" << setw(36) << Pin << "|" << endl;
+            cout << setw(43) << "      |   Khoi luong: " << setw(3) << "|" << setw(36) << Khoiluong << "|" << endl;
+            cout << setw(43) << "      |   So luong hien co trong kho: " << setw(3) << "|" << "" << setw(36) << soluong << "|" << endl;
+            cout << setw(43) << "      |   Gia mua: " << fixed << setprecision(0) << setw(3) << "|" << setw(36) << giamua << "|" << endl;
+            cout << setw(43) << "      |   Gia ban: " << fixed << setprecision(0) << setw(3) << "|" << setw(36) << giaban << "|" << endl;
+            cout << setw(6) << "      #====================================#======================================#" << endl;
+        }
 };
 class Quanlikho {
 private:
@@ -137,7 +138,7 @@ private:
     vector<laptop>laptopxuat;
 public:
     void CapNhatFileTXT() {
-        // Mở tệp văn bản để ghi
+        // Mở tệp văn bản để ghi (đảm bảo file txt trùng với đường link)
         ofstream fs("D:\\New folder\\Project2\\laptop23.txt", ios::out);
         // Kiểm tra xem tệp có mở thành công không
         if (!fs.is_open()) {
@@ -378,18 +379,17 @@ public:
             break;
         }
     }
-
     void SapXepLaptopTheoGiaTangDan() {
-        sort(kho.begin(), kho.end(), []( laptop& a,  laptop& b) {
+        sort(kho.begin(), kho.end(), [](laptop& a, laptop& b) {
             return a.GetGiaBan() < b.GetGiaBan();
             });
     }
     void SapXepLaptopTheoGiaGiamDan() {
-        sort(kho.begin(), kho.end(), []( laptop& a,  laptop& b) {
+        sort(kho.begin(), kho.end(), [](laptop& a, laptop& b) {
             return a.GetGiaBan() > b.GetGiaBan();
             });
     }
-    void Loclaptoptheohang( string& hang) {
+    void Loclaptoptheohang(string& hang) {
         int Choice5; double p;
         vector<laptop> laptop1;
         for (int i = 0; i < kho.size(); i++) {
