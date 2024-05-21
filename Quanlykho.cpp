@@ -158,6 +158,7 @@ public:
     }
     void DocFile() {
         ifstream fs;
+         // Mở tệp văn bản để đọc (đảm bảo file txt trùng với đường link)
         fs.open("D:\\New folder\\Project2\\laptop22.txt", ios::in);
         laptop lt;
         kho.clear(); // Xóa nội dung của danh sách laptop trước khi đọc từ file
